@@ -10,7 +10,7 @@ int main(){
     struct sockaddr_in serv_addr;
     memset(&serv_addr, 0, sizeof(serv_addr));  //每个字节都用0填充
     serv_addr.sin_family = AF_INET;  //使用IPv4地址
-    serv_addr.sin_addr.s_addr = inet_addr("118.25.139.122");  //具体的IP地址
+    serv_addr.sin_addr.s_addr = inet_addr("xxx.xxx.xxx.xxx");  //具体的IP地址
     serv_addr.sin_port = htons(39001);  //端口
     
    
